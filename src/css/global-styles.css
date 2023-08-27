@@ -13,6 +13,7 @@ body {
 
   color: var(--black);
   background-color: var(--white);
+  margin: 0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -58,4 +59,15 @@ a {
 ul,
 ol {
   list-style-type: none;
+}
+.section-container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .section-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }

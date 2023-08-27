@@ -2,6 +2,7 @@
   --black: #121417;
   --green: #4dc274;
   --green_linear: rgb(77, 194, 116);
+  --green_btn_active: #38ae5f;
   --green_accent: #bee8cc;
   --light_green: #d4fde1;
   --gray: #f3f5f6;
@@ -9,4 +10,6 @@
   --grey_text: rgba(255, 255, 255, 0.5);
   --white_background: rgba(243, 245, 246, 1);
   --white: #ffffff;
+  /* =========================== ANIMATION ================= */
+  --transition-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,28 +19,33 @@
   </head>
   <body>
     <load ="partials/header.html" />
-    <load ="partials/hero.html" />
+
     <main>
-      <section>
+      <section id="#hero" class="section-container">
+        <load ="partials/hero.html" />
+      </section>
+      <section id="about-us">
         <load ="partials/about-us.html" />
       </section>
-      <section>
+      <section id="#footer">
         <load ="partials/our-lessons.html" />
       </section>
-      <section>
+      <section id="#proposal">
         <load ="partials/proposal.html" />
       </section>
-      <section>
+      <section id="#our-teachers">
         <load ="partials/our-teachers.html" />
       </section>
-      <section>
+      <section id="#application">
         <load ="partials/application.html" />
       </section>
-      <section>
+      <section id="#reviews">
         <load ="partials/reviews.html" />
       </section>
     </main>
-    <load ="partials/footer.html" />
+    <footer id="#footer">
+      <load ="partials/footer.html" />
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -12,6 +12,7 @@ body {
 
   color: var(--black);
   background-color: var(--white);
+  margin: 0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -12,4 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --black: #121417;
+  --green: #4dc274;
+  --green_linear: rgb(77, 194, 116);
+  --green_accent: #bee8cc;
+  --light_green: #d4fde1;
+  --gray: #f3f5f6;
+  --grey_outline: rgba(18, 20, 23, 0.1);
+  --grey_text: rgba(255, 255, 255, 0.5);
+  --white_background: rgba(243, 245, 246, 1);
+  --white: #ffffff;
 }

@@ -1,0 +1,61 @@
+.our-lessons-item {
+  width: 100%;
+  border-radius: 16px;
+  padding: 40px 20px;
+  border: 1px solid var(--green);
+  background-color: var(--white);
+}
+.standart-item {
+  background-color: var(--green);
+}
+
+.our-lessons-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.our-lessons-title {
+  text-align: center;
+  font-size: 20px;
+
+  line-height: 1.2; /* 120% */
+  letter-spacing: -0.4px;
+  margin-bottom: 16px;
+}
+.standart-title {
+  color: var(--white);
+}
+.our-lessons-price {
+  text-align: center;
+  font-size: 32px;
+
+  line-height: 1.12; /* 112.5% */
+  letter-spacing: -0.64px;
+  margin-bottom: 40px;
+}
+.standart-price {
+  color: var(--white);
+}
+.our-lessons-text {
+  color: rgba(18, 20, 23, 0.5);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7; /* 171.429% */
+  margin-bottom: 20px;
+}
+.standart-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.our-lessons-btn {
+  display: inline-block;
+  padding: 14px 77px;
+  border-radius: 12px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.7; /* 171.429% */
+}
+.standart-btn {
+  padding: 14px 75px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}

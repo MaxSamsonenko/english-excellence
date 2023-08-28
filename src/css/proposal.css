@@ -1,0 +1,87 @@
+.proposal-section {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background-image: linear-gradient(
+    80deg,
+    rgba(77, 194, 116, 1) 0%,
+    rgba(190, 232, 204, 1) 100%
+  );
+  padding: 40px 20px 64px;
+  z-index: 0;
+}
+.proposal-card-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 16px;
+  padding: 40px 20px;
+
+  background-color: var(--white);
+  z-index: 0;
+}
+.decoration {
+  position: absolute;
+  top: 265px;
+  left: 20px;
+  width: 295px;
+  height: 416px;
+  border-radius: 16px;
+}
+.sheet-left {
+  transform: rotate(-9deg);
+  background-color: rgba(212, 253, 225, 1);
+  z-index: 0;
+}
+.sheet-right {
+  transform: rotate(11deg);
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 0;
+}
+.proposal-title {
+  color: var(--white);
+  text-align: start;
+  font-size: 38px;
+  line-height: 1.05; /* 105.263% */
+  margin-bottom: 65px;
+}
+.proposal-accent {
+  color: #bee8cc;
+}
+
+.proposal-card-list {
+  margin-bottom: 20px;
+}
+.proposal-card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.proposal-card-title {
+  font-size: 20px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -0.4px;
+  margin-bottom: 20px;
+}
+.proposal-card-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.proposal-card-text {
+  font-size: 14px;
+  line-height: 1.5; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+.proposal-icon {
+  fill: var(--green);
+}
+.proposal-card-btn {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: var(--green);
+  padding: 14px 58px;
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.7; /* 171.429% */
+}
